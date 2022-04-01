@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\blind.jpg" type="image/icon type">
+<link rel="stylesheet" href="home.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body onload="myload()">
+
+    
+</div>
+
+    <!--Header section start
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>Foodies.</a>
+        <nav class="navbar">
+            <a class="active" href="./home.html">Home</a>
+            <a href="./dishes.html">dishes</a>
+            <a href="#" onclick="openAbout()">about</a>
+            <a href="./contact.html" >Contact us</a>
+           
+            <a class="feed" id="feedback">feedback</a>
+            <a href="#">Orders</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="login.html" class="fas fa-sign-in-alt"></a>
+            
+        </div>-->
+    </header>
+    <div class="back">
+    <div class="container1" id="co1">
+        <div class="post">
+            <div class="text">Thanks for Rating us!</div>
+            <div class="edit">Edit</div>
+            <i class="fas fa-times" id="close"></i>
+    
+        </div>
+        <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+            <i class="fas fa-times" id="close"></i>
+            <h4></h4>
+            <div class="textarea">
+                <textarea cols="30" placeholder="Describe your experience"></textarea>
+    
+            </div>
+            
+            <div class="btn">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+        </div>    
+    </div>
+    </div>
+    <!-- Header section ends-->
+
+    <!--search form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close1"></i>
+    </form>
+    <!--Search Form ends-->
+
+    <!--Home section start-->
+    <section class="home" id="home-section">
+<!--Add-->
+<div class="add">
+ <div class="add-container">
+ <img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\blind.jpg">
+ <div class="textimg"><h2>30% off for your<br> first person</h2>
+ <a href="./ksbakers.html"><button class="ordr">Book Now</button></a></div>
+ 
+ </div>
+</div>
+<!--Add ends-->
+<!--Specials-->
+    <div class="spl">
+        <h2>Our Specialities</h2>
+</div>
+<div class="table">
+    <a href="#"><img src="data:image/jpeg;base64,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" height="150"><h4>Keerthi Rona</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\harvard richard.jpg" height="150"><h4>Harvad Richard</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\paneer selvan.jpg" height="150"><h4>Panner Selvan</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\karthik.jpg" height="150"><h4>Karthik</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\somnanth.jpg" height="150"><h4>somnanth</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\apollo.jpg" height="150"><h4>Apollonanth</h4></a>
+</div>
+
+<!--Top Restaurants-->
+<div class="top-re">
+    <h2>High Rated Persons</h2>
+</div>
+<div class="table1">
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\bonny kapor.jpg" height="150"><h4>Bonny kapor</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\moheein ali.jpg" height="150"><h4>Moheein ali</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\pragathi.jpg" height="150"><h4>Pragathi</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\ram.jpg" height="150"><h4>Ram</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\vanita.jpg" height="150"><h4>Vanitha</h4></a>
+    <a href="#"><img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\prashanth.jpg" height="150"><h4>Prashanth</h4></a>
+</div>
+<div class="container-grocery">
+  <img src="D:\pragatheeshwar\Food-Delivery-System-main\Food-Delivery-System-main\Files\blind.jpg" alt="Norway" style="width:20%;" style="align-items:right;">
+  <div class="text-block">
+    <h4>Any help!! ask us assistance delivered</h4>
+    <div class="ordergrocery">
+  <a href="https://api.whatsapp.com/send?phone=+919791124426&text=I want a high rated Assistant" class="orderg" onclick="mygrocery()"><i class="fab fa-whatsapp"></i> Book Now</a>
+  </div>
+  </div>
+  
+</div>
+</section>
+<div id="about" class="about">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-overlay">
+        <h1>About us</h1>
+        <p>Launched in 2021, Our technology platform connects customers,<br> 
+        restaurant partners and delivery partners, serving their multiple needs. <br>
+        Customers use our platform to search and discover restaurants, read and write customer 
+        generated reviews and view and upload photos,<br> order food delivery, book a table and make 
+        payments while dining-out at restaurants. On the other hand,<br> we provide restaurant partners 
+        with industry-specific marketing tools which enable them to engage and acquire customers<br> to 
+        grow their business while also providing a reliable <br>and efficient last mile delivery service. 
+        We also operate a one-stop procurement solution, <br>Hyperpure, which supplies high quality ingredients 
+        and kitchen products to restaurant partners.<br> We also provide our delivery partners with transparent 
+        and flexible earning opportunities. </p>
+    </div>
+</div>
+
+
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="footer-col">
+                <ul>
+                    <i class="fa fa-utensils"></i>
+                    <span>We are there</span>
+                </ul>
+                <div class="map">
+                    <ul>
+                        <i class="fa fa-map-marker"></i>
+                            <span>5th Floor,
+                                A-118,Sangareddy, Hyderabad, Telangana - 502001
+                            </span>
+                    </ul>
+                    </div>
+                <div class="mail">
+                    <ul>
+                        <i class="fas fa-inbox"></i>
+                        <span>
+                            support@youreyes.com
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>We are there</h4>
+                <ul>
+                    <li><a href="#" onclick="openAbout()">about us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Payment policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">My orders</a></li>
+                    <li><a href="#">Booking Status</a></li>
+                    <li><a href="#">Payment options</a></li>
+
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Order Now</h4>
+                    <ul>
+                        <li><a href="#">Male Assistant</a></li>
+                        <li><a href="#">Female Assistant</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            
+
+</footer>
+
+<!--Home  ends-->
+
+    
+
+    <!--Java Script-->
+    <script>
+        let menu = document.querySelector('#menu-bars');
+        let navbar = document.querySelector('.navbar');
+        
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll=() => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+        document.querySelector('#search-icon').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector('#close1').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector("#feedback").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+        document.querySelector("#close").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+    var preloader = document.getElementById("loading");
+    function myload() {
+        preloader.style.display="none";
+    }
+
+
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+    
+        btn.onclick = () =>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = () =>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+    }
+    function openAbout(){
+        document.getElementById("about").style.width = "100%";
+
+    }
+    function closeNav(){
+        document.getElementById("about").style.width = "0%";
+    }
+    var preloader = document.getElementById("loader");
+    
+    function myloader(){
+        preloader.style.display = "none";
+    }
+    function mygrocery(){
+        confirm("Order Now on Whatsapp click ok to continue");
+    }
+    </script>
+    
+    <!--JavaScript ends -->
+
+</body>
+</html>
