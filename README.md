@@ -27,6 +27,9 @@ because it's not that easy to speak to an unknown person. This shows their commu
 
 snapshots:
 (i) User's relative or caretaker UI:
+
+
+
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/102790803/161373722-168977f7-1e2b-4109-94fb-966ec0d53289.png">
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/102790803/161373761-3c76f035-8e28-4ecd-9ffa-f662fbd79bea.png">
