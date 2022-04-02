@@ -24,3 +24,16 @@ because it's not that easy to speak to an unknown person. This shows their commu
 (i) The user's relative or caretaker can view the live locaion of the user and moniter him.
 (ii) The user's relative will be able to send a message to the user.
 (iii) The user's relative will be able to view the user's travel history.
+
+snapshots:
+(i) User's relative or caretaker UI:
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/102790803/161373722-168977f7-1e2b-4109-94fb-966ec0d53289.png">
+
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/102790803/161373761-3c76f035-8e28-4ecd-9ffa-f662fbd79bea.png">
+
+(ii) Used Whatapp API to help the user's relative in any situation: 
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/102790803/161373780-cb5c49de-9bff-4d85-92b2-7fd488f7147c.png">
+
+(iii)After selecting the person, you'll be directed to the payment page.
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/102790803/161373913-0e4cdd55-6bbd-493f-9df4-343e95165c78.png">
+
