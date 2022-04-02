@@ -40,3 +40,25 @@ snapshots:
 (iii)After selecting the person, you'll be directed to the payment page.
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/102790803/161373913-0e4cdd55-6bbd-493f-9df4-343e95165c78.png">
 
+
+In part II:
+The user part will look like:
+
+
+<img width="471" alt="image" src="https://user-images.githubusercontent.com/102790803/161374424-11c25f0f-ef28-45f9-a996-348c381cf99c.png">
+
+
+The helper's part look like:
+
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/102790803/161374449-3c6cbc11-a459-44f3-9848-875288d7ed5d.png">
+
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/102790803/161374467-9db2fe1b-9f07-454e-a9ea-8659b86d6123.png">
+
+
+When one ends the call:
+
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/102790803/161374492-6d21428b-c6a0-4627-9ec0-e1be895285de.png">
+
+
+
+
